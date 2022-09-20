@@ -1,9 +1,14 @@
+* {
+    margin: 0%;
+}
+
 body {
     display: flex;
     flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     z-index: 1;
-    margin: -10;
+
+    background-color: #F9FAF8;
 }
 
 header {
@@ -40,6 +45,7 @@ a {
 .group1 {
     display: flex;
     background-color: #1F2937;
+    padding-top: 100px;
 
 }
 
@@ -102,6 +108,12 @@ button {
     padding-right: 100px;
     padding-bottom: 30px;
 
+}
+
+
+.quote {
+    width: 100%;
+    margin: -10;
 }
 
 .group3 {
