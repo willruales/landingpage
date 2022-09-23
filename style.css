@@ -90,7 +90,26 @@ button {
     color: #1F2937;
     background-color: #F9FAF8;
 
+
 }
+
+.subtext {
+    display: inline;
+}
+
+.aboutme {
+    display: grid;
+    justify-content: center;
+}
+
+
+
+.subtext img {
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .group2>.title2 {
     display: block;
@@ -134,7 +153,7 @@ button {
 }
 
 .container-sign {
-    display: inline-block;
+    display: flex;
     justify-content: center;
     background-color: #3882f6;
     width: 700px;
@@ -154,8 +173,11 @@ button {
 
 .click-link {
     display: flex;
+    align-items: center;
 
 }
+
+
 
 footer {
 
