@@ -1,14 +1,16 @@
 * {
     margin: 0%;
+    padding: 0%;
 }
 
 body {
-    display: flex;
     flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    z-index: 1;
-
+    display: grid;
     background-color: #F9FAF8;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
 header {
@@ -60,7 +62,7 @@ a {
 }
 
 img {
-    height: 400px;
+    height: 20rem;
     margin-right: 100;
 }
 
