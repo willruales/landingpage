@@ -7,14 +7,14 @@ body {
     flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: grid;
-    background-color: #F9FAF8;
+    background-color: #f7c65dfd;
     width: 100%;
     margin: 0 auto;
 
 }
 
 header {
-    display: inline-block;
+    display: inline-flex;
     color: white;
     text-decoration: none;
     justify-content: space-between;
@@ -27,12 +27,12 @@ header {
 
 h1 {
     font-size: 36px;
-    color: #F9FAF8;
+    color: #f7c65dfd;
 }
 
 a {
     padding-left: 50px;
-    color: white;
+    color: #f7c65dfd;
     text-decoration: none;
     display: flex;
     font-size: 26px;
@@ -58,17 +58,18 @@ a {
 .first {
     font-size: 36px;
     font: bold;
-    color: #E5E7EB;
+    color: #f7c65dfd;
     margin-left: 100;
 }
 
 img {
     height: 20rem;
     margin-right: 100;
+    transition-duration: 1s;
 }
 
 .textgroup {
-    color: #F9FAF8;
+    color: #f7c65dfd;
 }
 
 .textgroup h1 {
@@ -77,10 +78,11 @@ img {
 
 button {
     display: block;
-    color: #F9FAF8;
+    color: #f7c65dfd;
     background-color: #3882f6;
     height: 50px;
     width: 100px;
+    margin: 30px;
     border-radius: 25px;
     border-color: #3882f6;
     font-size: 16px;
@@ -91,13 +93,14 @@ button {
     font-size: 32px;
     font: bolder;
     color: #1F2937;
-    background-color: #F9FAF8;
+    background-color: #f7c65dfd;
 
 
 }
 
 .subtext {
     display: inline;
+    position: relative;
 }
 
 .aboutme {
@@ -108,18 +111,18 @@ button {
 
 
 .subtext img {
-    height: 150px;
+    height: 15rem;
     margin-left: auto;
     margin-right: auto;
+    transition-duration: 0s;
 }
 
 
 .group2>.title2 {
     display: block;
-
     justify-content: space-between;
     text-align: center;
-    padding-top: 30px;
+    padding: 30px;
 }
 
 .subtext {
@@ -140,7 +143,7 @@ button {
 }
 
 .group3 {
-    background-color: #E5E7EB;
+    background-color: #f7c65dfd;
     font-size: 36px;
     font-style: italic;
     padding-left: 200px;
@@ -158,7 +161,7 @@ button {
 .container-sign {
     display: flex;
     justify-content: center;
-    background-color: #3882f6;
+    background-color: #1F2937;
     width: 700px;
     border-radius: 30px;
     padding: 70px;
@@ -192,4 +195,13 @@ footer {
 
 .red {
     color: red;
+}
+
+.fader {
+    filter: blur(6px);
+}
+
+.aboutme p {
+
+    position: absolute;
 }
