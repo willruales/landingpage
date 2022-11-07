@@ -38,10 +38,14 @@ let div = document.querySelectorAll('.aboutme img')
 console.log(div);
 
 div.forEach((div) => {
-    let section = document.createElement("p");
-    let sectiontext = document.createTextNode("please workkkkkkkkkkkkkkkkkkkkkkkkk");
-    section.appendChild(sectiontext);
-    div.appendChild(section);
+    div.addEventListener('mouseover', () => {
+        let section = document.createElement("p");
+        let sectiontext = document.createTextNode("please workkkkkkkkkkkkkkkkkkkkkkkkk");
+        section.appendChild(sectiontext);
+        div.appendChild(section);
+
+    })
+
 })
 ///////////////////
 

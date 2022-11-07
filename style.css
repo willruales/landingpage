@@ -98,16 +98,43 @@ button {
 
 }
 
-.subtext {
-    display: inline;
-    position: relative;
-}
-
 .aboutme {
     display: grid;
     justify-content: center;
+    position: relative;
 }
 
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+
+.image-overlay:hover {
+    opacity: 1;
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
 
 
 .subtext img {
@@ -204,4 +231,5 @@ footer {
 .aboutme p {
 
     position: absolute;
+    font-size: large;
 }
