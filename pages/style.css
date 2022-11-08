@@ -98,12 +98,22 @@ button {
 
 }
 
-.aboutme {
-    display: grid;
-    justify-content: center;
-    position: relative;
+sidebar {
+    background-color: #40d47efd;
+    width: 20%;
+    padding-left: 100px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
+li {
+    display: block;
+    list-style: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* 
 .image-overlay {
     position: absolute;
     top: 0;
@@ -124,7 +134,7 @@ button {
 
 .image-overlay:hover {
     opacity: 1;
-}
+} */
 
 .image__title {
     font-size: 2em;
@@ -157,7 +167,7 @@ button {
     justify-content: space-between;
     align-items: center;
     font-size: medium;
-    padding-left: 100px;
+
     padding-right: 100px;
     padding-bottom: 30px;
 
@@ -223,6 +233,7 @@ footer {
 .red {
     color: #40d47efd;
 }
+
 
 .fader {
     filter: blur(6px);
