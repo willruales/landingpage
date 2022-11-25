@@ -1,16 +1,13 @@
 const timeline = document.querySelector('.timeline');
-console.log(timeline)
-
-
-
 
 const li = timeline.querySelectorAll('li')
-console.log(li);
 
+const colombia = document.querySelector('#colombia')
+const qa = document.querySelector('#qa')
+const post = document.querySelector('#post')
 
-li.forEach((li) => {
-    li.addEventListener("mouseover", () => {
-
+function toggleMenu(e) {
+    if (e.target.id == "colombia") {
         const div1 = document.createElement('div1');
         div1.classList.add('div1');
         timeline.appendChild(div1);
@@ -27,12 +24,14 @@ li.forEach((li) => {
             return colombia;
 
         }
-
         list1()
-    });
+    }
+}
+
+li.forEach((li) => {
+    li.addEventListener('mouseover', toggleMenu, false);
+
 });
-
-
 
 
 // const colombia = document.querySelector('#colombia');
@@ -57,6 +56,3 @@ li.forEach((li) => {
 
 // const div2 = document.createElement('div2')
 // timeline.appendChild(div2);
-
-
-
