@@ -7,24 +7,21 @@ const qa = document.querySelector('#qa')
 const post = document.querySelector('#post')
 
 function toggleMenu(e) {
-    if (e.target.id == "colombia") {
-        const div1 = document.createElement('div1');
-        div1.classList.add('div1');
-        timeline.appendChild(div1);
+    const div1 = document.createElement('div1');
+    div1.classList.add('div1');
+    timeline.appendChild(div1);
 
+    if (e.target.id == "colombia") {
         const ul = document.createElement('ul')
         div1.appendChild(ul);
 
-        function list1() {
+        function Colombia() {
             let colombia = ul.insertAdjacentHTML("beforeend", `
-            <li>Colombia</li>
-            <li>QA Bootcamp</li>
-            <li>Present</li>
-            `)
+            <li>End of Covid</li>
+            <li>Odin Project</li>`)
             return colombia;
-
         }
-        list1()
+        Colombia()
     }
 }
 
