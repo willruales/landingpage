@@ -46,10 +46,16 @@ a {
     float: right;
 }
 
+.header {
+    float: right;
+}
+
+
 .group1 {
     display: flex;
     background-color: #1F2937;
     padding-top: 100px;
+    padding-left: 20px;
 
 }
 
@@ -59,7 +65,7 @@ a {
     font-size: 36px;
     font: bold;
     color: #f7c65dfd;
-    margin-left: 100;
+    /* margin-left: 100; */
 }
 
 img {
@@ -94,7 +100,7 @@ button {
     font: bolder;
     color: #1F2937;
     background-color: #f7c65dfd;
-    height: 400px;
+    height: 500px;
 
 
 
@@ -112,6 +118,15 @@ ul>li {
     justify-content: space-between;
     text-align: center;
     padding: 30px;
+    font-size: 50px;
+}
+
+.Period {
+    margin-bottom: 20;
+}
+
+.Period p {
+    padding-left: 20px;
 }
 
 .Period h1 {
@@ -125,6 +140,7 @@ ul>li {
 
 .Period:hover .weeks p {
     display: block;
+    /* margin: 20px; */
 }
 
 .week {
@@ -138,9 +154,10 @@ ul>li {
 
 .Period:hover .week {
     display: block;
+    margin-left: 20px;
 }
 
-.week h4:hover+.work {
+.week h3:hover+.work {
     display: block;
 
 }
