@@ -51,10 +51,13 @@ a {
 }
 
 .group1 {
+    /* display: flex;
+    background-color: #1F2937;
+    padding-top: 100px; */
     display: flex;
     background-color: #1F2937;
     padding-top: 100px;
-
+    padding-left: 20px;
 }
 
 
