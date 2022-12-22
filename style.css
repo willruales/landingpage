@@ -46,6 +46,10 @@ a {
     float: right;
 }
 
+.header {
+    float: right;
+}
+
 .group1 {
     display: flex;
     background-color: #1F2937;
@@ -59,7 +63,7 @@ a {
     font-size: 36px;
     font: bold;
     color: #f7c65dfd;
-    margin-left: 100;
+    /* margin-left: 100; */
 }
 
 img {
